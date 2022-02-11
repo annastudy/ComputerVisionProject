@@ -24,7 +24,7 @@ pic_red[:,:,2]=0 #Zero out contribution from blue
 
 plt.imshow (pic_red)
 plt.show()
-print('jfkldf;try to debug the pic_red variable and see what are the RGB value examples in 3 channels after zero out.')
+print('try to debug the pic_red variable and see what are the RGB value examples in 3 channels after zero out.')
 
 pic_red = pic_arr.copy()
 print('show the result using imshow function')
